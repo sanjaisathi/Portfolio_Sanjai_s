@@ -2,12 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
+
 import smp from "../../Assets/Projects/smartParking.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+
 import NEWS from "../../Assets/NEWS.png";
 import todo from "../../Assets/Projects/TODO.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+
 
 function Projects() {
   return (
@@ -32,7 +32,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/*<Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
@@ -41,7 +41,7 @@ function Projects() {
               ghLink="https://github.com/sanjaisathi/PRS_FABRICS"
              
             />
-          </Col>
+          </Col>*/}
 
           <Col md={4} className="project-card">
             <ProjectCard
