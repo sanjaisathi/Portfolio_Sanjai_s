@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
-import myPic from "../../Assets/my-pic.jpg"; // Replace with your actual image path
+import homeLogo from "../../Assets/Projects/bg.jpg";
+import myPic from "../../Assets/my-pic.jpg"; 
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";

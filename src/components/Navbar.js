@@ -91,14 +91,14 @@ function NavBar() {
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
+              {/*<Nav.Link
               //vesal
                 href=""
                 target="_blank"
                 rel="noreferrer"
               >
                 <ImBlog style={{ marginBottom: "2px" }} /> Blogs
-              </Nav.Link>
+              </Nav.Link>*/}
             </Nav.Item>
 
             <Nav.Item className="fork-btn">

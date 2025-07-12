@@ -26,4 +26,8 @@ yarn-error.log*
 .eslintcache
 
 Server/node_modules
-Server/config.js
+Server/config.jsnode_modules/
+.env
+dist/
+build/
+coverage/
